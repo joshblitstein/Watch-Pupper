@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+
+.list{
+  display: flex;
+  flex-direction: column;
+}
+
+.listEls {
+  flex-basis: 100%;
+ margin-bottom: 20px;
+  list-style: none;
+}
+
+img{
+  height: 400px;
+  transition: all ease 2s;
+  color: blue;
+  opacity: 0.6;
+}
+img:hover{
+  height: 500px;
+  opacity: 1;
+}
+
+.listEls:hover {
+  flex-basis: 100%;
+  list-style: none;
+}
